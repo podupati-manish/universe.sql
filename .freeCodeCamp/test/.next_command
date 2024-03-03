@@ -290,3 +290,10 @@ git pull --rebase
 git branch --set-upstream-to= < remote > / < branch > main
 git reset --mixed origin/main
 git add .
+git commit -m "This is a new commit for what I originally planned to be amended"
+git push origin main
+git remote add origin https://github.com/podupati-manish/freecodecamp-universe.git
+git remote remove origin
+git remote add origin https://github.com/podupati-manish//universe.sql.git
+git push -u origin main
+git add .
